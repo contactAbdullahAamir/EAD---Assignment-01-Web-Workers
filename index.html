@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Workers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center">Web Workers</h1>
+    <button onclick="loadCSV()">Load CSV</button>
+    <button onclick="displayTable()">Display Table</button>
+    <button onclick="sortData()">Sort Data</button>
+    <br/>
+    <h3 class="text-center">Table is showing the top 10 results of CSV file that contains 200000+ dataset</h3>
+    <div class="container">
+        <div id="tableContainer">
+            <Table id='table' class="table table-hover">
+
+            </Table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
